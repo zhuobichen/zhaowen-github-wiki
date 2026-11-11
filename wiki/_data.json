@@ -1,0 +1,542 @@
+{
+ "generated_at": "2026-11-11T12:18:18.936074+00:00",
+ "owner": "zhuobichen",
+ "count": 20,
+ "repos": [
+  {
+   "name": "ai-job-command-center",
+   "full_name": "zhuobichen/ai-job-command-center",
+   "visibility": "PUBLIC",
+   "description": "AI 驱动的本地求职助手（面向中国招聘市场）",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-09-29T15:17:33Z",
+   "created_at": "2026-05-31T06:17:10Z",
+   "topics": [
+    "ai-agent",
+    "automation",
+    "china-job-market",
+    "job-search"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/ai-job-command-center",
+   "last_commit": {
+    "sha": "14c0e3f",
+    "message": "feat(简历): build_resume.py 新增 --ai 开关, 生成岗位适配版 - 源文件取 \"-AI\" 后缀 (如 简历-正式版-背景-AI.md) - 产物加 _AI 后缀, 与原版并",
+    "date": "2026-09-29"
+   },
+   "page": "projects/ai-job-command-center.md"
+  },
+  {
+   "name": "AndroidApps",
+   "full_name": "zhuobichen/AndroidApps",
+   "visibility": "PUBLIC",
+   "description": "MapMate（小德地图）：把高德地图和 DeepSeek Agent 合成一个能陪你的骑行导航助手。Android / Java / Material3",
+   "category": "工具 / CLI",
+   "language": "Java",
+   "stars": 1,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:41:48Z",
+   "created_at": "2026-10-25T12:49:13Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/AndroidApps",
+   "last_commit": {
+    "sha": "80ccc79",
+    "message": "fix(security): AMap Key 与签名口令改为本地注入；关闭明文流量 - AMap Key 走 manifestPlaceholders（local.properties / 环境变量",
+    "date": "2026-11-05"
+   },
+   "page": "projects/AndroidApps.md"
+  },
+  {
+   "name": "digital-humanities-narrative",
+   "full_name": "zhuobichen/digital-humanities-narrative",
+   "visibility": "PUBLIC",
+   "description": "数字人文叙事 AI 分析引擎：人物关系网络与叙事生成（CLI + Web）",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T08:42:43Z",
+   "created_at": "2026-05-25T14:46:08Z",
+   "topics": [
+    "ai",
+    "digital-humanities",
+    "knowledge-graph",
+    "narrative-generation",
+    "nlp"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/digital-humanities-narrative",
+   "last_commit": {
+    "sha": "c6c2c43",
+    "message": "feat: 复核强度 strict/normal/loose + DSH 会话当复核方的实测 - llm_verifier.should_keep(): 按强度决定保留哪些边 strict 只留模型判",
+    "date": "2026-11-11"
+   },
+   "page": "projects/digital-humanities-narrative.md"
+  },
+  {
+   "name": "Ember",
+   "full_name": "zhuobichen/Ember",
+   "visibility": "PUBLIC",
+   "description": "从聊天记录中用 AI 生成人生纪念碑的数字悼亡工具",
+   "category": "AI / Agent / 插件",
+   "language": "JavaScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T14:38:30Z",
+   "created_at": "2026-06-28T12:00:56Z",
+   "topics": [
+    "ai",
+    "chat-analysis",
+    "digital-memorial",
+    "nlp"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/Ember",
+   "last_commit": {
+    "sha": "84be37e",
+    "message": "docs(schema): 示例群号换成占位",
+    "date": "2026-11-05"
+   },
+   "page": "projects/Ember.md"
+  },
+  {
+   "name": "guangdong-wrf-cmaq",
+   "full_name": "zhuobichen/guangdong-wrf-cmaq",
+   "visibility": "PUBLIC",
+   "description": "广东省 WRF-CMAQ 空气质量多尺度模拟与评估",
+   "category": "科研 / 环境",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-08-16T15:26:43Z",
+   "created_at": "2026-05-09T02:37:00Z",
+   "topics": [
+    "air-quality",
+    "atmospheric-modeling",
+    "guangdong",
+    "wrf-cmaq"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/guangdong-wrf-cmaq",
+   "last_commit": {
+    "sha": "e6ab22d",
+    "message": "fix: 恢复被误删的 CLAUDE.md",
+    "date": "2026-08-16"
+   },
+   "page": "projects/guangdong-wrf-cmaq.md"
+  },
+  {
+   "name": "MathModeling-Agent",
+   "full_name": "zhuobichen/MathModeling-Agent",
+   "visibility": "PUBLIC",
+   "description": "数学建模竞赛数据分析题全流程自动化系统（多 Agent 流水线）",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:40:14Z",
+   "created_at": "2026-05-14T02:06:33Z",
+   "topics": [
+    "ai-agent",
+    "llm",
+    "math-modeling",
+    "multi-agent",
+    "python"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/MathModeling-Agent",
+   "last_commit": {
+    "sha": "18b3f50",
+    "message": "chore: 清理死代码 - 删除 workflow.py 中未使用的 _run_modeler 方法（实际用 _run_modeler_with_feedback） - 删除 workflow.py",
+    "date": "2026-08-16"
+   },
+   "page": "projects/MathModeling-Agent.md"
+  },
+  {
+   "name": "pilgrim-intel",
+   "full_name": "zhuobichen/pilgrim-intel",
+   "visibility": "PUBLIC",
+   "description": "统一 AI 情报聚合系统：多信源抓取、AI 摘要与 MCP 可查询",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:41:40Z",
+   "created_at": "2026-06-30T04:01:00Z",
+   "topics": [
+    "ai-summary",
+    "information-aggregation",
+    "intelligence",
+    "mcp",
+    "rss"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/pilgrim-intel",
+   "last_commit": {
+    "sha": "41f4e1e",
+    "message": "fix: 默认仅监听本机；CORS 改白名单；去重计数改用游标 rowcount - server.py: --host 默认 127.0.0.1（对外绑定会告警），CORS 只回显白名单来源 - s",
+    "date": "2026-11-05"
+   },
+   "page": "projects/pilgrim-intel.md"
+  },
+  {
+   "name": "PM25-Fusion-AutoResearch",
+   "full_name": "zhuobichen/PM25-Fusion-AutoResearch",
+   "visibility": "PUBLIC",
+   "description": "PM2.5 监测-模型数据融合自动研究框架（VNA/eVNA/aVNA/Downscaler 复现与验证）",
+   "category": "科研 / 环境",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:42:07Z",
+   "created_at": "2026-04-10T01:27:39Z",
+   "topics": [
+    "air-quality",
+    "data-fusion",
+    "machine-learning",
+    "pm25"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/PM25-Fusion-AutoResearch",
+   "last_commit": {
+    "sha": "db47310",
+    "message": "fix(metrics): 校验形状与有效样本数；单样本 R² 显式 nan；去掉 sklearn 依赖 - 长度不一致直接 ValueError，不再隐式广播 - 返回值新增 n（有效样本数），比较",
+    "date": "2026-11-05"
+   },
+   "page": "projects/PM25-Fusion-AutoResearch.md"
+  },
+  {
+   "name": "PPT_Control",
+   "full_name": "zhuobichen/PPT_Control",
+   "visibility": "PUBLIC",
+   "description": "基于 Markdown 模板与提示词的 PPT 自动化组装工作台",
+   "category": "工具 / CLI",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:42:27Z",
+   "created_at": "2026-06-23T08:36:55Z",
+   "topics": [
+    "ai",
+    "automation",
+    "markdown",
+    "ppt",
+    "prompt-engineering"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/PPT_Control",
+   "last_commit": {
+    "sha": "bd5c936",
+    "message": "fix(security): 生成代码执行前静态审查 + 禁网禁子进程沙箱 - 执行前扫描外部进程/网络/动态执行/越界文件操作，命中需 PPT_ASSEMBLE_FORCE=1 - 子进程注入守卫：",
+    "date": "2026-11-05"
+   },
+   "page": "projects/PPT_Control.md"
+  },
+  {
+   "name": "qchat-cli",
+   "full_name": "zhuobichen/qchat-cli",
+   "visibility": "PUBLIC",
+   "description": "QQ 聊天记录导出 / 消息监听 / 群管理 / QQ 空间自动化的命令行工具；基于 OneBot + NapCat，支持 AI 群日报与私聊机器人。",
+   "category": "微信 / 数据采集",
+   "language": "TypeScript",
+   "stars": 1,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T11:06:27Z",
+   "created_at": "2026-05-11T15:09:03Z",
+   "topics": [
+    "ai-agent",
+    "chat-export",
+    "chat-history",
+    "cli",
+    "napcat",
+    "onebot",
+    "qq",
+    "qqbot",
+    "qzone",
+    "typescript"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/qchat-cli",
+   "last_commit": {
+    "sha": "b1e5a99",
+    "message": "feat(poke): 收戳一戳——WS 事件常驻监听，收到投递到会话并自动还手 - NapCat httpServers 开着 enableWebsocket，3000 端口同一套 token 可连",
+    "date": "2026-11-11"
+   },
+   "page": "projects/qchat-cli.md"
+  },
+  {
+   "name": "server_manager",
+   "full_name": "zhuobichen/server_manager",
+   "visibility": "PUBLIC",
+   "description": "",
+   "category": "工具 / CLI",
+   "language": "JavaScript",
+   "stars": 1,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-09-02T01:59:19Z",
+   "created_at": "2026-09-01T06:25:39Z",
+   "topics": [],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/server_manager",
+   "last_commit": {
+    "sha": "6404135",
+    "message": "feat: persist SSH connection status and require explicit retries",
+    "date": "2026-09-02"
+   },
+   "page": "projects/server_manager.md"
+  },
+  {
+   "name": "weflow-cli",
+   "full_name": "zhuobichen/weflow-cli",
+   "visibility": "PUBLIC",
+   "description": "本地优先的微信数据工具：聊天记录查询导出、公众号日报与个人知识库（MCP 兼容）",
+   "category": "微信 / 数据采集",
+   "language": "Python",
+   "stars": 159,
+   "forks": 70,
+   "archived": false,
+   "pushed_at": "2026-11-10T16:56:16Z",
+   "created_at": "2026-05-12T02:14:39Z",
+   "topics": [
+    "ai",
+    "cli",
+    "knowledge-base",
+    "mcp",
+    "wechat"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/weflow-cli",
+   "last_commit": {
+    "sha": "639e70d",
+    "message": "feat(wiki): 悬空概念补页脚本（零模型，抽取式） 知识库有 5,716 个\"被引用但没有页\"的目标（8,098 条链接）。原方案是调模型生成，但： - Jev 是 systemone 判断协",
+    "date": "2026-11-10"
+   },
+   "page": "projects/weflow-cli.md"
+  },
+  {
+   "name": "zhaowen-claudemod",
+   "full_name": "zhuobichen/zhaowen-claudemod",
+   "visibility": "PUBLIC",
+   "description": "我自用的 Claude Code mod 合集（function hooks）：以 marketplace 形式分发，/plugin install 装",
+   "category": "AI / Agent / 插件",
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-10-20T04:22:26Z",
+   "created_at": "2026-10-15T04:44:32Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-claudemod",
+   "last_commit": {
+    "sha": "5173e32",
+    "message": "fix(moon-band): 模型回复不是字符串时不再炸，并加一条换模型的退路 实测 `$.model.complete` 回来的不是字符串（类型上写着 Promise<string>），于是 `t",
+    "date": "2026-10-20"
+   },
+   "page": "projects/zhaowen-claudemod.md"
+  },
+  {
+   "name": "zhaowen-cli",
+   "full_name": "zhuobichen/zhaowen-cli",
+   "visibility": "PUBLIC",
+   "description": "个人自用 CLI 小工具集：OneNote 读取 / Windows 便签 / 智能体对话管理，子目录独立可用，原仓库历史完整保留",
+   "category": "工具 / CLI",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-10-23T16:51:05Z",
+   "created_at": "2026-10-23T16:50:48Z",
+   "topics": [],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-cli",
+   "last_commit": {
+    "sha": "ec57390",
+    "message": "docs: 修正历史查看方式的说明",
+    "date": "2026-10-23"
+   },
+   "page": "projects/zhaowen-cli.md"
+  },
+  {
+   "name": "zhaowen-codexplugin",
+   "full_name": "zhuobichen/zhaowen-codexplugin",
+   "visibility": "PUBLIC",
+   "description": "赵文的 Codex 插件市场：从 Claude Code 的 mod 移植过来的 skill + MCP 工具",
+   "category": "AI / Agent / 插件",
+   "language": "JavaScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-10-20T04:48:48Z",
+   "created_at": "2026-10-20T04:40:09Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-codexplugin",
+   "last_commit": {
+    "sha": "b68bde1",
+    "message": "feat(deepseek-balance): 加 /balance 斜杠命令，修密钥回退与退出崩溃 按官方 spec 和 openai-curated 里的真实样例补齐： - commands/ba",
+    "date": "2026-10-20"
+   },
+   "page": "projects/zhaowen-codexplugin.md"
+  },
+  {
+   "name": "zhaowen-dsh",
+   "full_name": "zhuobichen/zhaowen-dsh",
+   "visibility": "PUBLIC",
+   "description": "DSH 工具集：多 Agent 团队编排插件 @zhuobichen/dsh-team + Claude Code 风格 TUI (dsh-cc-tui) + 终端客户端 (dsh-term)",
+   "category": "AI / Agent / 插件",
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-09T16:50:37Z",
+   "created_at": "2026-10-18T10:01:25Z",
+   "topics": [
+    "cordis",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "multi-agent",
+    "terminal",
+    "tui"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-dsh",
+   "last_commit": {
+    "sha": "1649f3a",
+    "message": "chore(sandbox-grant): spawnDetached 加 await-gate 豁免说明（detached + stdio ignore 是故意不设超时）",
+    "date": "2026-11-09"
+   },
+   "page": "projects/zhaowen-dsh.md"
+  },
+  {
+   "name": "zhaowen-mcp",
+   "full_name": "zhuobichen/zhaowen-mcp",
+   "visibility": "PUBLIC",
+   "description": "个人自用的 MCP 服务集合（15 个）：中文平台数据（小红书 / B站 / 热榜）、智能体会话检索、代码审阅、SSH 文件管理、识图生图生视频、API 用量监测等，供 Claude Code 等 MCP 客户端调用",
+   "category": "AI / Agent / 插件",
+   "language": "TypeScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-05T11:41:35Z",
+   "created_at": "2026-08-15T08:39:02Z",
+   "topics": [
+    "claude-code",
+    "image-generation",
+    "mcp",
+    "model-context-protocol",
+    "video-generation"
+   ],
+   "license": "MIT",
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-mcp",
+   "last_commit": {
+    "sha": "ee9eb9b",
+    "message": "fix(code-review): 路径白名单 + 请求超时重试 + 不把 reasoning 当结论 - 新增 path-guard.ts：REVIEW_ALLOWED_DIRS 白名单 + rea",
+    "date": "2026-11-05"
+   },
+   "page": "projects/zhaowen-mcp.md"
+  },
+  {
+   "name": "zhaowen-otherplugins",
+   "full_name": "zhuobichen/zhaowen-otherplugins",
+   "visibility": "PUBLIC",
+   "description": "其他 Zotero/工具类插件合集。目前包含 Collection Tags：在条目列表创建者右侧显示所属集合的彩色标签。",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T07:51:41Z",
+   "created_at": "2026-11-10T03:29:25Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-otherplugins",
+   "last_commit": {
+    "sha": "3f7807c",
+    "message": "﻿fix(collection-tags): 重点标记改用 CSS 三角形，避免 emoji 字体接管 U+25B2 在 Windows 上被 Segoe UI Emoji 渲染成「红色方块套三角」，",
+    "date": "2026-11-11"
+   },
+   "page": "projects/zhaowen-otherplugins.md"
+  },
+  {
+   "name": "zhaowen-skill",
+   "full_name": "zhuobichen/zhaowen-skill",
+   "visibility": "PUBLIC",
+   "description": "可复用 Skill 集合（Claude Code / Agent Skill 格式）：文档转换、公众号操作、视频分析、科研工具等。",
+   "category": "AI / Agent / 插件",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T12:06:48Z",
+   "created_at": "2026-08-26T15:40:12Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-skill",
+   "last_commit": {
+    "sha": "068eee1",
+    "message": "﻿feat(zotero): 补充「写入第三方插件字段」的流程与坑 插件列显示的字段有自己的解析器，写值前必须先读它的正则，不能按自己 习惯的格式写——写错不报错，列就是空的，只能靠试错发现。 以 C",
+    "date": "2026-11-11"
+   },
+   "page": "projects/zhaowen-skill.md"
+  },
+  {
+   "name": "zhuobichen",
+   "full_name": "zhuobichen/zhuobichen",
+   "visibility": "PUBLIC",
+   "description": "👋 My GitHub profile",
+   "category": "工具 / CLI",
+   "language": "JavaScript",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T09:58:53Z",
+   "created_at": "2026-08-15T17:25:44Z",
+   "topics": [],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhuobichen",
+   "last_commit": {
+    "sha": "db1f2a8",
+    "message": "generated 3D contribution profile",
+    "date": "2026-11-11"
+   },
+   "page": "projects/zhuobichen.md"
+  }
+ ]
+}

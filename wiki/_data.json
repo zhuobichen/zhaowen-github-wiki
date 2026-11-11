@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-11-11T12:18:18.936074+00:00",
+ "generated_at": "2026-11-11T12:20:01.512062+00:00",
  "owner": "zhuobichen",
- "count": 20,
+ "count": 21,
  "repos": [
   {
    "name": "ai-job-command-center",
@@ -439,6 +439,38 @@
     "date": "2026-11-09"
    },
    "page": "projects/zhaowen-dsh.md"
+  },
+  {
+   "name": "zhaowen-github-wiki",
+   "full_name": "zhuobichen/zhaowen-github-wiki",
+   "visibility": "PUBLIC",
+   "description": "赵文的 GitHub 项目索引导航：20 个公开项目，按分类 / 语言 / Star 可检索，每周自动刷新",
+   "category": "阅读 / 知识库",
+   "language": "Python",
+   "stars": 0,
+   "forks": 0,
+   "archived": false,
+   "pushed_at": "2026-11-11T12:19:06Z",
+   "created_at": "2026-11-11T12:18:24Z",
+   "topics": [
+    "awesome-list",
+    "chinese",
+    "github",
+    "index",
+    "navigation",
+    "portfolio",
+    "projects",
+    "wiki"
+   ],
+   "license": null,
+   "homepage": null,
+   "url": "https://github.com/zhuobichen/zhaowen-github-wiki",
+   "last_commit": {
+    "sha": "2e98e49",
+    "message": "feat: 公开项目索引 wiki（仅公开仓库，每周自动刷新）",
+    "date": "2026-11-11"
+   },
+   "page": "projects/zhaowen-github-wiki.md"
   },
   {
    "name": "zhaowen-mcp",

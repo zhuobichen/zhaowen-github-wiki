@@ -1,14 +1,14 @@
 # GitHub 项目 Wiki
 
-> 自动生成，每周刷新。最后更新：2026-11-11 12:17 UTC
+> 自动生成，每周刷新。最后更新：2026-11-11 12:19 UTC
 > 生成脚本：`scripts/build_wiki.py`｜机器可读数据：`_data.json`
 
 ## 总览
 
 | 指标 | 值 |
 | --- | --- |
-| 仓库总数 | 20 |
-| 公开 / 私有 | 20 / 0 |
+| 仓库总数 | 21 |
+| 公开 / 私有 | 21 / 0 |
 | 归档 | 0 |
 | 总 Star | 162 |
 | 总 Fork | 70 |
@@ -44,6 +44,7 @@ grep -l "visibility: private" wiki/projects/*.md
 | [zhaowen-cli](projects/zhaowen-cli.md) | 工具 / CLI | 公开 | Python | 0 | 0 | 2026-10-23 | 个人自用 CLI 小工具集：OneNote 读取 / Windows 便签 / … |
 | [zhaowen-codexplugin](projects/zhaowen-codexplugin.md) | AI / Agent / 插件 | 公开 | JavaScript | 0 | 0 | 2026-10-20 | 赵文的 Codex 插件市场：从 Claude Code 的 mod 移植过来的… |
 | [zhaowen-dsh](projects/zhaowen-dsh.md) | AI / Agent / 插件 | 公开 | TypeScript | 0 | 0 | 2026-11-09 | DSH 工具集：多 Agent 团队编排插件 @zhuobichen/dsh-t… |
+| [zhaowen-github-wiki](projects/zhaowen-github-wiki.md) | 阅读 / 知识库 | 公开 | Python | 0 | 0 | 2026-11-11 | 赵文的 GitHub 项目索引导航：20 个公开项目，按分类 / 语言 / St… |
 | [zhaowen-mcp](projects/zhaowen-mcp.md) | AI / Agent / 插件 | 公开 | TypeScript | 0 | 0 | 2026-11-05 | 个人自用的 MCP 服务集合（15 个）：中文平台数据（小红书 / B站 / 热… |
 | [zhaowen-otherplugins](projects/zhaowen-otherplugins.md) | AI / Agent / 插件 | 公开 | Python | 0 | 0 | 2026-11-11 | 其他 Zotero/工具类插件合集。目前包含 Collection Tags：在… |
 | [zhaowen-skill](projects/zhaowen-skill.md) | AI / Agent / 插件 | 公开 | Python | 0 | 0 | 2026-11-11 | 可复用 Skill 集合（Claude Code / Agent Skill 格… |
@@ -74,6 +75,10 @@ grep -l "visibility: private" wiki/projects/*.md
 
 - [guangdong-wrf-cmaq](projects/guangdong-wrf-cmaq.md) — 广东省 WRF-CMAQ 空气质量多尺度模拟与评估
 - [PM25-Fusion-AutoResearch](projects/PM25-Fusion-AutoResearch.md) — PM2.5 监测-模型数据融合自动研究框架（VNA/eVNA/aVNA/Downscaler 复现与验证）
+
+### 阅读 / 知识库（1）
+
+- [zhaowen-github-wiki](projects/zhaowen-github-wiki.md) — 赵文的 GitHub 项目索引导航：20 个公开项目，按分类 / 语言 / Star 可检索，每周自动刷新
 
 ### 工具 / CLI（5）
 

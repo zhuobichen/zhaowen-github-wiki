@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 OWNER = 'zhuobichen'
-SELF_REPO = 'ZhaoWenGitHubDiary'          # 本 wiki 所在的仓库：给自己建页会自引用
+SELF_REPO = 'zhaowen-github-diary'          # 本 wiki 所在的仓库：给自己建页会自引用
 WIKI_COMMIT_PREFIXES = ('docs(wiki)', 'fix(wiki)', 'docs: weekly wiki')
 MANUAL_BEGIN = '<!-- manual:begin -->'
 MANUAL_END = '<!-- manual:end -->'
@@ -379,6 +379,18 @@ def main():
         print(f'[{i}/{len(repos)}] {r["name"]}')
 
     if not args.only:
+        # 清理孤儿页：仓库改名/删除后，旧页面不该留在 projects/ 里
+        keep = {f'{r["name"]}.md' for r in repos}
+        removed = []
+        proj_dir = os.path.join(args.out, 'projects')
+        if os.path.isdir(proj_dir):
+            for fn in sorted(os.listdir(proj_dir)):
+                if fn.endswith('.md') and fn not in keep:
+                    os.remove(os.path.join(proj_dir, fn))
+                    removed.append(fn)
+        if removed:
+            print(f'清理孤儿页 {len(removed)} 个: ' + ', '.join(removed))
+
         # _data.json 里的 generated_at 每次都变，但它不是内容；只有 repos 真变了才重写
         data_path = os.path.join(args.out, '_data.json')
         changed = True

@@ -330,6 +330,8 @@ def main():
     ap.add_argument('--only', default=None, help='只生成某个仓库（调试用）')
     ap.add_argument('--public-only', action='store_true',
                     help='只收录公开仓库（用于公开库，绝不包含私有项目）')
+    ap.add_argument('--self-repo', default=SELF_REPO,
+                    help='wiki 自身所在的仓库名：它不追踪自己的 pushed_at，避免自引用 churn')
     args = ap.parse_args()
 
     repos = fetch_public_repos(args.owner) if args.public_only else fetch_repos(args.owner)
@@ -347,7 +349,7 @@ def main():
         nwo = r['nameWithOwner']
         path = os.path.join(args.out, 'projects', f'{r["name"]}.md')
         manual = extract_manual(path)
-        is_self = r['name'] == SELF_REPO
+        is_self = r['name'] == args.self_repo
         commit = last_commit(nwo, skip_wiki_commits=is_self)
         if is_self and commit:
             # 自己这一页不能用 pushedAt：wiki 每提交一次它就会变 —— 那是自引用

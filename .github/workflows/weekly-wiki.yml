@@ -22,7 +22,11 @@ jobs:
       - name: Build wiki (public repos only)
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 scripts/build_wiki.py --public-only --out wiki
+        run: >
+          python3 scripts/build_wiki.py
+          --public-only
+          --self-repo zhaowen-github-wiki
+          --out wiki
 
       - name: Commit
         run: |

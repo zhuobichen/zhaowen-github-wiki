@@ -4,10 +4,10 @@ visibility: public
 language: Java
 stars: 1
 forks: 0
-last_push: 2026-11-05
+last_push: 2026-11-12
 category: 工具 / CLI
 archived: false
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 # AndroidApps
@@ -20,7 +20,7 @@ updated: 2026-11-11
 | 语言 | Java |
 | ⭐ Star | 1 |
 | 🍴 Fork | 0 |
-| 最近推送 | 2026-11-05 |
+| 最近推送 | 2026-11-12 |
 | 话题 | — |
 | License | — |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-11
 
 ## 最近一次提交
 
-`80ccc79` 2026-11-05 — fix(security): AMap Key 与签名口令改为本地注入；关闭明文流量 - AMap Key 走 manifestPlaceholders（local.properties / 环境变量
+`ff50347` 2026-11-12 — 卷灵 v4.4: 整卷结果默认只出 answers.txt（PDF 改为按需）；App 可直接查看 txt；试卷环节允许联网核实事实
 
 ## README 摘录
 

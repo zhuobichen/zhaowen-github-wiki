@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T12:22:31.554665+00:00",
+ "generated_at": "2026-11-16T07:33:05.654397+00:00",
  "owner": "zhuobichen",
  "count": 21,
  "repos": [
@@ -41,16 +41,16 @@
    "stars": 1,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-05T11:41:48Z",
+   "pushed_at": "2026-11-12T13:33:18Z",
    "created_at": "2026-10-25T12:49:13Z",
    "topics": [],
    "license": null,
    "homepage": null,
    "url": "https://github.com/zhuobichen/AndroidApps",
    "last_commit": {
-    "sha": "80ccc79",
-    "message": "fix(security): AMap Key 与签名口令改为本地注入；关闭明文流量 - AMap Key 走 manifestPlaceholders（local.properties / 环境变量",
-    "date": "2026-11-05"
+    "sha": "ff50347",
+    "message": "卷灵 v4.4: 整卷结果默认只出 answers.txt（PDF 改为按需）；App 可直接查看 txt；试卷环节允许联网核实事实",
+    "date": "2026-11-12"
    },
    "page": "projects/AndroidApps.md"
   },
@@ -64,7 +64,7 @@
    "stars": 0,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-11T08:42:43Z",
+   "pushed_at": "2026-11-11T16:03:45Z",
    "created_at": "2026-05-25T14:46:08Z",
    "topics": [
     "ai",
@@ -77,8 +77,8 @@
    "homepage": null,
    "url": "https://github.com/zhuobichen/digital-humanities-narrative",
    "last_commit": {
-    "sha": "c6c2c43",
-    "message": "feat: 复核强度 strict/normal/loose + DSH 会话当复核方的实测 - llm_verifier.should_keep(): 按强度决定保留哪些边 strict 只留模型判",
+    "sha": "e228346",
+    "message": "feat(ui): 重做关系图可视化——暗色仪表盘、按类型/社群上色、搜索与详情面板 原来：白底、所有节点同色、边全是灰的、只有一行统计，节点挤成一团。 现在： - 顶栏统计 chips（人物/关系/",
     "date": "2026-11-11"
    },
    "page": "projects/digital-humanities-narrative.md"
@@ -264,7 +264,7 @@
    "stars": 1,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-11T11:06:27Z",
+   "pushed_at": "2026-11-16T07:31:08Z",
    "created_at": "2026-05-11T15:09:03Z",
    "topics": [
     "ai-agent",
@@ -282,9 +282,9 @@
    "homepage": null,
    "url": "https://github.com/zhuobichen/qchat-cli",
    "last_commit": {
-    "sha": "b1e5a99",
-    "message": "feat(poke): 收戳一戳——WS 事件常驻监听，收到投递到会话并自动还手 - NapCat httpServers 开着 enableWebsocket，3000 端口同一套 token 可连",
-    "date": "2026-11-11"
+    "sha": "72e1e54",
+    "message": "feat: 名片守卫脚本 + 两条硬规则（冷峰沉睡下等马 / 名片不可被别人固定） 号主：'有的东西严格不能变，但可以被别人改的，比如你在某个群中的备注。 针对备注，你可以自己做一个自动化的脚本，一旦",
+    "date": "2026-11-16"
    },
    "page": "projects/qchat-cli.md"
   },
@@ -318,25 +318,30 @@
    "description": "本地优先的微信数据工具：聊天记录查询导出、公众号日报与个人知识库（MCP 兼容）",
    "category": "微信 / 数据采集",
    "language": "Python",
-   "stars": 159,
-   "forks": 70,
+   "stars": 168,
+   "forks": 73,
    "archived": false,
-   "pushed_at": "2026-11-10T16:56:16Z",
+   "pushed_at": "2026-11-16T07:18:36Z",
    "created_at": "2026-05-12T02:14:39Z",
    "topics": [
     "ai",
+    "backup",
+    "chat-history",
     "cli",
+    "export",
     "knowledge-base",
     "mcp",
-    "wechat"
+    "wechat",
+    "wechat-exporter",
+    "wechat4"
    ],
    "license": "MIT",
    "homepage": null,
    "url": "https://github.com/zhuobichen/weflow-cli",
    "last_commit": {
-    "sha": "639e70d",
-    "message": "feat(wiki): 悬空概念补页脚本（零模型，抽取式） 知识库有 5,716 个\"被引用但没有页\"的目标（8,098 条链接）。原方案是调模型生成，但： - Jev 是 systemone 判断协",
-    "date": "2026-11-10"
+    "sha": "5167935",
+    "message": "fix(contacts): load_contact_names 静默返回空表，联系人姓名退化为裸 wxid 采纳 PR #17（@fcmyoo）。**这个 bug 是我在 352a3d3（只读副本",
+    "date": "2026-11-16"
    },
    "page": "projects/weflow-cli.md"
   },
@@ -390,7 +395,7 @@
    "name": "zhaowen-codexplugin",
    "full_name": "zhuobichen/zhaowen-codexplugin",
    "visibility": "PUBLIC",
-   "description": "赵文的 Codex 插件市场：从 Claude Code 的 mod 移植过来的 skill + MCP 工具",
+   "description": "朝闻的 Codex 插件市场：从 Claude Code 的 mod 移植过来的 skill + MCP 工具",
    "category": "AI / Agent / 插件",
    "language": "JavaScript",
    "stars": 0,
@@ -444,7 +449,7 @@
    "name": "zhaowen-github-wiki",
    "full_name": "zhuobichen/zhaowen-github-wiki",
    "visibility": "PUBLIC",
-   "description": "赵文的 GitHub 项目索引导航：20 个公开项目，按分类 / 语言 / Star 可检索，每周自动刷新",
+   "description": "朝闻的 GitHub 项目索引导航：20 个公开项目，按分类 / 语言 / Star 可检索，每周自动刷新",
    "category": "阅读 / 知识库",
    "language": "Python",
    "stars": 0,
@@ -466,8 +471,8 @@
    "homepage": null,
    "url": "https://github.com/zhuobichen/zhaowen-github-wiki",
    "last_commit": {
-    "sha": "2e98e49",
-    "message": "feat: 公开项目索引 wiki（仅公开仓库，每周自动刷新）",
+    "sha": "db1a08b",
+    "message": "feat(wiki): 自动清理孤儿页",
     "date": "2026-11-11"
    },
    "page": "projects/zhaowen-github-wiki.md"
@@ -511,16 +516,16 @@
    "stars": 0,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-11T07:51:41Z",
+   "pushed_at": "2026-11-12T07:06:37Z",
    "created_at": "2026-11-10T03:29:25Z",
    "topics": [],
    "license": null,
    "homepage": null,
    "url": "https://github.com/zhuobichen/zhaowen-otherplugins",
    "last_commit": {
-    "sha": "3f7807c",
-    "message": "﻿fix(collection-tags): 重点标记改用 CSS 三角形，避免 emoji 字体接管 U+25B2 在 Windows 上被 Segoe UI Emoji 渲染成「红色方块套三角」，",
-    "date": "2026-11-11"
+    "sha": "34873c4",
+    "message": "feat(litmap): 布局填满画布、地理悬停列文献、新增分析标签页 引用网络与语义地图： 两处都用 s = Math.min(sx,sy) 等比缩放。画布 1414x690（约 2:1）而布局是",
+    "date": "2026-11-12"
    },
    "page": "projects/zhaowen-otherplugins.md"
   },
@@ -534,16 +539,16 @@
    "stars": 0,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-11T12:06:48Z",
+   "pushed_at": "2026-11-12T13:58:16Z",
    "created_at": "2026-08-26T15:40:12Z",
    "topics": [],
    "license": null,
    "homepage": null,
    "url": "https://github.com/zhuobichen/zhaowen-skill",
    "last_commit": {
-    "sha": "068eee1",
-    "message": "﻿feat(zotero): 补充「写入第三方插件字段」的流程与坑 插件列显示的字段有自己的解析器，写值前必须先读它的正则，不能按自己 习惯的格式写——写错不报错，列就是空的，只能靠试错发现。 以 C",
-    "date": "2026-11-11"
+    "sha": "75a9951",
+    "message": "skill(更新): dev-blog-distribution —— 补阿里云开发者实测（mditor 真输入是 textarea.textarea、首次发布滑块验证、审核中公开页 404）",
+    "date": "2026-11-12"
    },
    "page": "projects/zhaowen-skill.md"
   },
@@ -557,16 +562,16 @@
    "stars": 0,
    "forks": 0,
    "archived": false,
-   "pushed_at": "2026-11-11T09:58:53Z",
+   "pushed_at": "2026-11-15T18:09:31Z",
    "created_at": "2026-08-15T17:25:44Z",
    "topics": [],
    "license": null,
    "homepage": null,
    "url": "https://github.com/zhuobichen/zhuobichen",
    "last_commit": {
-    "sha": "db1f2a8",
+    "sha": "f6b91ea",
     "message": "generated 3D contribution profile",
-    "date": "2026-11-11"
+    "date": "2026-11-15"
    },
    "page": "projects/zhuobichen.md"
   }

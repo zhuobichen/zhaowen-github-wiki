@@ -7,7 +7,7 @@ forks: 0
 last_push: 2026-11-11
 category: AI / Agent / 插件
 archived: false
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 # digital-humanities-narrative
@@ -28,7 +28,7 @@ updated: 2026-11-11
 
 ## 最近一次提交
 
-`c6c2c43` 2026-11-11 — feat: 复核强度 strict/normal/loose + DSH 会话当复核方的实测 - llm_verifier.should_keep(): 按强度决定保留哪些边 strict 只留模型判
+`e228346` 2026-11-11 — feat(ui): 重做关系图可视化——暗色仪表盘、按类型/社群上色、搜索与详情面板 原来：白底、所有节点同色、边全是灰的、只有一行统计，节点挤成一团。 现在： - 顶栏统计 chips（人物/关系/
 
 ## README 摘录
 

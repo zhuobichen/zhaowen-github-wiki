@@ -7,12 +7,12 @@ forks: 0
 last_push: 2026-10-20
 category: AI / Agent / 插件
 archived: false
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 # zhaowen-codexplugin
 
-> 赵文的 Codex 插件市场：从 Claude Code 的 mod 移植过来的 skill + MCP 工具
+> 朝闻的 Codex 插件市场：从 Claude Code 的 mod 移植过来的 skill + MCP 工具
 
 | 项 | 值 |
 | --- | --- |

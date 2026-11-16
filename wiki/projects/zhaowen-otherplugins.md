@@ -4,10 +4,10 @@ visibility: public
 language: Python
 stars: 0
 forks: 0
-last_push: 2026-11-11
+last_push: 2026-11-12
 category: AI / Agent / 插件
 archived: false
-updated: 2026-11-11
+updated: 2026-11-16
 ---
 
 # zhaowen-otherplugins
@@ -20,7 +20,7 @@ updated: 2026-11-11
 | 语言 | Python |
 | ⭐ Star | 0 |
 | 🍴 Fork | 0 |
-| 最近推送 | 2026-11-11 |
+| 最近推送 | 2026-11-12 |
 | 话题 | — |
 | License | — |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-11
 
 ## 最近一次提交
 
-`3f7807c` 2026-11-11 — ﻿fix(collection-tags): 重点标记改用 CSS 三角形，避免 emoji 字体接管 U+25B2 在 Windows 上被 Segoe UI Emoji 渲染成「红色方块套三角」，
+`34873c4` 2026-11-12 — feat(litmap): 布局填满画布、地理悬停列文献、新增分析标签页 引用网络与语义地图： 两处都用 s = Math.min(sx,sy) 等比缩放。画布 1414x690（约 2:1）而布局是
 
 ## README 摘录
 

@@ -4,10 +4,10 @@ visibility: public
 language: TypeScript
 stars: 0
 forks: 0
-last_push: 2026-11-05
+last_push: 2026-11-20
 category: AI / Agent / 插件
 archived: false
-updated: 2026-11-11
+updated: 2026-11-23
 ---
 
 # zhaowen-mcp
@@ -20,7 +20,7 @@ updated: 2026-11-11
 | 语言 | TypeScript |
 | ⭐ Star | 0 |
 | 🍴 Fork | 0 |
-| 最近推送 | 2026-11-05 |
+| 最近推送 | 2026-11-20 |
 | 话题 | claude-code, image-generation, mcp, model-context-protocol, video-generation |
 | License | MIT |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-11
 
 ## 最近一次提交
 
-`ee9eb9b` 2026-11-05 — fix(code-review): 路径白名单 + 请求超时重试 + 不把 reasoning 当结论 - 新增 path-guard.ts：REVIEW_ALLOWED_DIRS 白名单 + rea
+`f3a37ef` 2026-11-20 — feat(minimax-image-mcp): 补上图生图（1–16 张参考图），并修掉把错误吞成 [object Object] 之前这个 MCP 只会纯文生图——请求体里根本没有参考图字段。查了
 
 ## README 摘录
 

@@ -4,10 +4,10 @@ visibility: public
 language: Python
 stars: 0
 forks: 0
-last_push: 2026-11-12
+last_push: 2026-11-22
 category: AI / Agent / 插件
 archived: false
-updated: 2026-11-16
+updated: 2026-11-23
 ---
 
 # zhaowen-skill
@@ -20,7 +20,7 @@ updated: 2026-11-16
 | 语言 | Python |
 | ⭐ Star | 0 |
 | 🍴 Fork | 0 |
-| 最近推送 | 2026-11-12 |
+| 最近推送 | 2026-11-22 |
 | 话题 | — |
 | License | — |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-16
 
 ## 最近一次提交
 
-`75a9951` 2026-11-12 — skill(更新): dev-blog-distribution —— 补阿里云开发者实测（mditor 真输入是 textarea.textarea、首次发布滑块验证、审核中公开页 404）
+`6a315ec` 2026-11-22 — second-screen-display: locate remote window by process (not title), restore minimized display window
 
 ## README 摘录
 

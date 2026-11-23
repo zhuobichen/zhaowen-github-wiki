@@ -2,12 +2,12 @@
 name: weflow-cli
 visibility: public
 language: Python
-stars: 168
-forks: 73
-last_push: 2026-11-16
+stars: 184
+forks: 77
+last_push: 2026-11-22
 category: 微信 / 数据采集
 archived: false
-updated: 2026-11-16
+updated: 2026-11-23
 ---
 
 # weflow-cli
@@ -18,9 +18,9 @@ updated: 2026-11-16
 | --- | --- |
 | 可见性 | 公开 |
 | 语言 | Python |
-| ⭐ Star | 168 |
-| 🍴 Fork | 73 |
-| 最近推送 | 2026-11-16 |
+| ⭐ Star | 184 |
+| 🍴 Fork | 77 |
+| 最近推送 | 2026-11-22 |
 | 话题 | ai, backup, chat-history, cli, export, knowledge-base, mcp, wechat, wechat-exporter, wechat4 |
 | License | MIT |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-16
 
 ## 最近一次提交
 
-`5167935` 2026-11-16 — fix(contacts): load_contact_names 静默返回空表，联系人姓名退化为裸 wxid 采纳 PR #17（@fcmyoo）。**这个 bug 是我在 352a3d3（只读副本
+`706b5cf` 2026-11-22 — feat(key): 取密钥不再依赖"数据库打开事件"—— 内存扫描 + 按盐密钥表 ## 问题 4.x 取 key 走 Hook：注入 DLL 进 Weixin.exe，等一次数据库打开事件。微信 
 
 ## README 摘录
 

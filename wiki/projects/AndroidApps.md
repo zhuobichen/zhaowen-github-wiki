@@ -4,10 +4,10 @@ visibility: public
 language: Java
 stars: 1
 forks: 0
-last_push: 2026-11-12
+last_push: 2026-11-23
 category: 工具 / CLI
 archived: false
-updated: 2026-11-16
+updated: 2026-11-23
 ---
 
 # AndroidApps
@@ -20,7 +20,7 @@ updated: 2026-11-16
 | 语言 | Java |
 | ⭐ Star | 1 |
 | 🍴 Fork | 0 |
-| 最近推送 | 2026-11-12 |
+| 最近推送 | 2026-11-23 |
 | 话题 | — |
 | License | — |
 | 主页 | — |
@@ -28,7 +28,7 @@ updated: 2026-11-16
 
 ## 最近一次提交
 
-`ff50347` 2026-11-12 — 卷灵 v4.4: 整卷结果默认只出 answers.txt（PDF 改为按需）；App 可直接查看 txt；试卷环节允许联网核实事实
+`6e294d5` 2026-11-23 — 卷灵 v4.5: 按「原生精修（Things 3 式）」重做界面——纯白底、圆形勾选框、缩进发丝线、浮起卡、蓝只给勾选/链接/加号
 
 ## README 摘录
 
